@@ -32,7 +32,7 @@ const Home = () => {
           ifYes && "hidden"
         }`}
       >
-        <div className="w-2/6 h-[8rem] sm:h-[12rem] md:h-[17rem] lg:h-[20rem] relative">
+        <div className="w-2/6 h-[15rem] sm:h-[15rem] md:h-[17rem] lg:h-[20rem] relative">
           <Image
             alt="Cute Bear"
             src={
@@ -74,7 +74,7 @@ const Home = () => {
           !ifYes && "hidden"
         } w-screen h-screen flex flex-col items-center overflow-hidden bg-white text-black`}
       >
-        <div className="w-2/6 h-[20rem] relative">
+        <div className="w-2/6 h-[20rem] sm:h-[25rem] md:h-[20rem] relative">
           <Image
             alt="Cute Bear"
             src={
@@ -86,7 +86,7 @@ const Home = () => {
           />
         </div>
         <div className="">
-          <h1 className="text-3xl">{" Okay! Let's meet tomorrow"}</h1>
+          <h1 className="text-xl md:text-2xl lg:text-3xl">{" Okay! Let's meet tomorrow"}</h1>
         </div>
 
         <button
